@@ -46,11 +46,11 @@
   position: relative;
 }
 
-#nav-bar a:hover {
+#categories a:hover {
   color: black;
 }
 
-#nav-bar a:before {
+#categories a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -63,7 +63,7 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-#nav-bar a:hover:before {
+#categories a:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -131,7 +131,7 @@ hr {
   margin: 0 auto;
 }
 
-#img-container {
+.img-container {
   display: grid;
   height: 100%;
   position: relative;
@@ -139,7 +139,7 @@ hr {
   color: white;
 }
 
-#cover-text {
+.cover-text {
   display: block;
   height: 100%;
   color: white;
@@ -148,19 +148,38 @@ hr {
   margin-left: -1em;
 }
 
-#img-container h1 {
+#collection-text {
+  margin-top: 14%;
+  text-align: left;
+  margin-left: 4em;
+}
+
+#collection-text h1 {
+  line-height: 0.9em;
+}
+
+#collection-text p {
+  margin-top: 1.5em;
+  margin-left: -5em;
+}
+
+#collection-text button {
+  margin-left: 0;
+}
+
+.img-container h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 3.2vw;
 }
 
-#img-container p {
+.img-container p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25vw;
   padding-left: 5em;
 }
 
-#img-container button {
+.img-container button {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.15vw;
   font-weight: 700;
@@ -172,11 +191,11 @@ hr {
   margin-left: 5em;
 }
 
-#img-container button:hover {
+.img-container button:hover {
   cursor: pointer;
 }
 
-#cover-img {
+.cover-img {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
