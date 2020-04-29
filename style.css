@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -138,33 +139,37 @@ hr {
   color: white;
 }
 
+#cover-text {
+  display: block;
+  height: 100%;
+  color: white;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: -1em;
+}
+
 #img-container h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  position: absolute;
-  bottom: 6.5em;
-  left: 1.5em;
+  font-size: 3.2vw;
 }
 
 #img-container p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  position: absolute;
-  top: 17em;
-  left: 3.8em;
+  font-size: 1.25vw;
+  padding-left: 5em;
 }
 
 #img-container button {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.9em;
+  font-size: 1.15vw;
   font-weight: 700;
   color: black;
   border: none;
   padding: 15px 30px;
   border-radius: 5rem;
   display: block;
-  position: absolute;
-  top: 3em;
+  margin-left: 5em;
 }
 
 #img-container button:hover {
@@ -177,6 +182,73 @@ hr {
   margin: auto;
 }
 
+.title {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1em;
+}
+
+.collection-container {
+  padding: 2em;
+}
+
+.title>p {
+  color: #53565A;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.subtitle>h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.subtitle>p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.four-img-container {
+  height: 105px;
+  background-color: white;
+  white-space: nowrap;
+  width: 100%;
+  display: table;
+}
+
+.items {
+  vertical-align: middle;
+  padding: 0.3em;
+  display: table-cell;
+}
+
+.items img {
+  max-width: 100%;
+}
+
+.items>p {
+  font-family: 'Roboto', sans-serif;
+  color: #999999;
+  text-align: center;
+  font-size: 0.7em;
+  margin-bottom: 0;
+  line-height: 2em;
+}
+
+.blk {
+  color: black !important;
+  margin-top: 1em;
+}
 
 @media (max-width: 575.98px) {
   body {
