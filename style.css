@@ -361,6 +361,55 @@ hr {
   background: #BBBCBC;
 }
 
+#about-container {
+  background-color: #F5F5F5;
+  padding: 1.8em;
+}
+
+#about-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  padding-bottom: 0.6em;
+}
+
+#about-container p {
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+
+#signup-container {
+  background-color: black;
+  display: flex;
+  height: 100%;
+  padding: 2.5em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#signup-container p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 0.95em;
+  margin-left: 2.2em;
+}
+
+#signup-container button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5rem;
+  margin-left: -16em;
+}
+
+#signup-container button:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 575.98px) {
   body {
     background-color: blue;
