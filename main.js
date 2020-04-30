@@ -1,3 +1,3 @@
-TODO: scroll window down because navbar is covering the top
-
-TODO: when clicking on logo, reload page
+var shiftWindow = function() { scrollBy(0, -90) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
