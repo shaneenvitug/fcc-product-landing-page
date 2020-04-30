@@ -218,34 +218,57 @@
     <button>SIGN UP</button>
   </div>
 
-
-  <video id="video" src=""></video>
-  <form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input id="email" type="email" name="email" placeholder="email@johndoe.com">
-    <input id="submit" type="submit">
-  </form>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+  <!--Footer section with *video and *form-->
+  <footer id="footer">
+    <div id="video-container">
+      <div class="brand-logo">
+        <h4>GYMWHALE</h4>
+        <img id="left" src="img/logo.jpg" alt="brand logo">
+      </div>
+      <video controls width="400" id="video">
+        <source src="./video.mp4"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+    </div>
+    <div id="form-container">
+      <div class="brand-logo" id="right-logo">
+        <img id="right" src="img/logo.jpg" alt="brand logo">
+        <h4>CENTRAL</h4>
+      </div>
+      <p>Visit the <u>Gymwhale Blog</u></p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">SIGN UP FOR OUR NEWSLETTER</label>
+        <br>
+        <input id="email" type="email" name="email" placeholder="Your Email Address" required>
+        <input id="submit" type="submit" value="›">
+      </form>
+      <!--Social media icons-->
+      <div id="soc-container">
+        <div class="social">
+          <a href="https://www.linkedin.com/in/shaneen-vitug/" target="_blank">
+          <img src="img/linkedin.png" alt="linkedin icon"/></a>
+        </div>
+        <div class="social">
+          <a href="https://twitter.com/shaneenvitug" target="_blank">
+          <img src="img/twitter.png" alt="twitter icon"/></a>
+        </div>
+        <div class="social">
+          <a href="https://github.com/shaneenvitug" target="_blank">
+          <img src="img/github.png" alt="github icon"/></a>
+        </div>
+      </div>
+      <div id="info">
+        <p>inspired by <a href="https://au.gymshark.com/" target="_blank">Gymshark</a> • no copyright infringement intended</p>
+        <p>
+          website cleverly crafted by
+          <a href="https://shaneenvitug.com/" target="_blank">shaneen vitug</a> © 2020
+        </p>
+        <p>a <a href="https://www.freecodecamp.org/">freeCodeCamp</a> project</p>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

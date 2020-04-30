@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -406,8 +407,139 @@ hr {
   margin-left: -16em;
 }
 
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 2em;
+}
+
 #signup-container button:hover {
   cursor: pointer;
+}
+
+.brand-logo {
+  display: flex;
+}
+
+.brand-logo h4 {
+  font-family: 'Rambla', sans-serif;
+}
+
+.brand-logo img {
+  max-height: 1.5em;
+  width: auto;
+  margin-bottom: 3.5em;
+}
+
+#right {
+  margin-bottom: 0;
+}
+
+#right-logo {
+  padding-left: 25em;
+  align-items: center;
+}
+
+#right-logo h4 {
+  font-size: 1.1em;
+}
+
+#right-logo img {
+  max-height: 2em;
+  width: auto;
+}
+
+#form-container {
+  text-align: right;
+}
+
+#form-container p {
+  margin-top: 0.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65em;
+}
+
+u {
+  color: #c3c7cb;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.7em;
+}
+
+#email {
+  width: 13em;
+  height: auto;
+  padding: 0.1em 0.5em 0.25em 0.5em;
+  margin-right: -0.3em;
+}
+
+#submit {
+  background-color: black;
+  color: white;
+  width: 2.3em;
+  height: 2.2em;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #c3c7cb;
+  font-size: 0.6em;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: 'Montserrat', sans-serif;
+  color: #c3c7cb;
+  font-size: 0.6em;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: 'Montserrat', sans-serif;
+  color: #c3c7cb;
+  font-size: 0.6em;
+}
+
+:-ms-input-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #c3c7cb;
+  font-size: 0.6em;
+}
+
+#soc-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.3em;
+  max-width: 5em;
+  padding-left: 27em;
+}
+
+.social img {
+  max-width: 2em;
+  height: auto;
+  margin-right: 2.5em;
+}
+
+#info {
+  margin-top: 2em;
+}
+
+#info p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 0.6em;
+}
+
+#info a {
+  color: #c3c7cb;
+  text-decoration: underline;
+}
+
+#info a:hover {
+  cursor: pointer;
+  color: #656667;
 }
 
 @media (max-width: 575.98px) {
