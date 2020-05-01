@@ -239,9 +239,9 @@ hr {
 }
 
 .four-img-container {
-  height: 105px;
+  /* height: 105px; */
   background-color: white;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   width: 100%;
   display: table;
 }
@@ -404,7 +404,7 @@ hr {
   border: none;
   padding: 12px 30px;
   border-radius: 5rem;
-  margin-left: -16em;
+  /* margin-left: -16em; */
 }
 
 #footer {
@@ -436,8 +436,10 @@ hr {
 }
 
 #right-logo {
-  padding-left: 25em;
+  /* padding-left: 25em; */
   align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 #right-logo h4 {
@@ -514,13 +516,13 @@ label {
   justify-content: space-around;
   margin-top: 2.3em;
   max-width: 5em;
-  padding-left: 27em;
+  /* padding-left: 27em; */
 }
 
 .social img {
   max-width: 2em;
   height: auto;
-  margin-right: 2.5em;
+  /* margin-right: 2.5em; */
 }
 
 #info {
@@ -529,7 +531,7 @@ label {
 
 #info p {
   font-family: 'Montserrat', sans-serif;
-  line-height: 0.6em;
+  /* line-height: 0.6em; */
 }
 
 #info a {
@@ -542,8 +544,152 @@ label {
   color: #656667;
 }
 
+#video-container {
+  width: 100%;
+}
+
+video {
+  width: 65%;
+  max-height: 100%;
+}
+
+@media (max-width: 800px) {
+  #shop-men {
+    margin-left: 30%;
+  }
+
+  #shop-men h1,
+  #shop-men button {
+    margin-left: 0;
+    text-align: right;
+  }
+
+  .four-img-container {
+    display: flex;
+  }
+
+  .four-img-container .items:nth-child(even) {
+    display: none;
+  }
+
+  .items {
+    width: 50%;
+  }
+
+  #right-logo {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  #form-container {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  #soc-container {
+    padding-left: 0;
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    margin-left: auto;
+  }
+
+  .social {
+    width: 3rem;
+  }
+
+  video {
+    width: 100%;
+  }
+}
+
 @media (max-width: 575.98px) {
-  body {
-    background-color: blue;
+  #right-logo {
+    padding-left: 0;
+  }
+
+  #signup-container {
+    flex-direction: column;
+    font-size: small;
+    text-align: center;
+  }
+
+  #signup-container button {
+    margin-left: 0;
+  }
+
+  #shop-men {
+    margin-left: 20%;
+  }
+
+  #soc-container {
+    width: 100%;
+    max-height: 100%;
+    padding-left: 0;
+  }
+
+  #categories {
+    width: 100%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #about-container>p {
+    font-size: small;
+  }
+
+  .subtitle>h2 {
+    font-size: medium;
+  }
+
+  .brand-logo {
+    justify-content: center;
+  }
+
+  #info p {
+    font-size: x-small;
+  }
+
+  .cover-text {
+    margin-left: 1em;
+  }
+
+  .cover-text h1 {
+    text-align: left;
+  }
+
+  .img-container h1 {
+    font-size: large;
+  }
+
+  .img-container p {
+    font-size: xx-small;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .img-container button {
+    margin-left: 0;
+    padding: 5px 10px;
+    font-size: xx-small;
+  }
+
+  #collection-text {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+  }
+
+  #collection-text p {
+    margin-top: 0;
+    margin-left: 0;
   }
 }
