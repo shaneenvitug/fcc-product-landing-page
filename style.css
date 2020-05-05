@@ -516,17 +516,20 @@ label {
   justify-content: space-around;
   margin-top: 2.3em;
   max-width: 5em;
-  /* padding-left: 27em; */
+  width: 100%;
+  margin-left: auto;
+  padding-right: 3em;
 }
 
 .social img {
   max-width: 2em;
   height: auto;
-  /* margin-right: 2.5em; */
+  margin-right: 2.5em;
 }
 
 #info {
   margin-top: 2em;
+  width: 25em;
 }
 
 #info p {
@@ -631,6 +634,7 @@ video {
     width: 100%;
     max-height: 100%;
     padding-left: 0;
+    padding-right: 0;
   }
 
   #categories {
@@ -655,8 +659,13 @@ video {
     justify-content: center;
   }
 
+  #info {
+    width: 100%;
+    text-align: center;
+  }
+
   #info p {
-    font-size: x-small;
+    font-size: xx-small;
   }
 
   .cover-text {
